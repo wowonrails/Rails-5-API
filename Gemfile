@@ -5,6 +5,7 @@ gem 'puma', '~> 3.0'
 gem 'pg'
 
 gem "rspec_api_documentation"
+gem 'bcrypt'
 
 group :development do
   gem 'listen'
