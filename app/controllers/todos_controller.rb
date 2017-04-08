@@ -1,4 +1,5 @@
 class TodosController < ApplicationController
+  before_action :require_login
   before_action :set_todo, only: [:show, :update, :destroy]
 
   # GET /todos
