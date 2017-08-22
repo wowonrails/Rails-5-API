@@ -1,6 +1,6 @@
 module TodoContext
   def todos
-    @todos ||= current_user.todos
+    @todos ||= Todo.all
   end
 
   def set_todo
